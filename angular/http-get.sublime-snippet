@@ -1,14 +1,12 @@
 <snippet>
   <content><![CDATA[
 \$http.get('${1:url}').success(function(response) {
-  // Success
   $2
 }).error(function(response) {
-  // Error
-  $3
+  // alert(response);
 });
 ]]></content>
   <tabTrigger>$http</tabTrigger>
   <scope>source.js</scope>
-  <description>Angular $http.get</description>
+  <description>$http.get</description>
 </snippet>

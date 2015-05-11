@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+\$http.post('${1:url}', {}).success(function(response) {
+  $2
+}).error(function(response) {
+  // alert(response);
+});
+]]></content>
+  <tabTrigger>$http</tabTrigger>
+  <scope>source.js</scope>
+  <description>$http.post</description>
+</snippet>
